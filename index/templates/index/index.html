@@ -1,11 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+           body{
+    background-color: #3366CC; /* Цвет фона веб-страницы */
+   }
+    </style>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Visitka</title>
 </head>
 <body>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u9WVnuOxqNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="//coub.com/embed/1ncz0n?muted=false&autostart=false&originalSize=true&startWithHD=true" allowfullscreen frameborder="0" width="1280" height="720" allow="autoplay"></iframe>
+<a href="{% static 'index/css/index.css' %}"></a>
 </body>
 </html>

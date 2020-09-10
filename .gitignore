@@ -1,5 +1,5 @@
 .idea
-static/
+/static
 
 # standart django gitignore
 # Byte-compiled / optimized / DLL files
